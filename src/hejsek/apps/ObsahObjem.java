@@ -29,7 +29,7 @@ public class ObsahObjem {
         double plocha_ctyrsten = Math.sqrt(3 * Math.pow(a, 2));
 
         System.out.format(Locale.getDefault(), "Při zachování objemu kvádru (%.2f %s^3) činí rozměry pro:%n", kvadr_objem, jednotky);
-        System.out.format(Locale.getDefault(), "Stranu krychle: %.2f %s%nStranu ctyrstenu: %.2f %s%nPoloměr koule: %.2f %s", a_krychle, jednotky, a_ctyrsten, jednotky, r, jednotky);
+        System.out.format(Locale.getDefault(), "Stranu krychle: %.2f %s%nStranu ctyrstenu: %.2f %s%nPoloměr koule: %.2f %s%n", a_krychle, jednotky, a_ctyrsten, jednotky, r, jednotky);
         System.out.format(Locale.getDefault(), "Plocha pro:%nKvádr: %.2f %s^2%nKrychli: %.2f %s^2%nKouli: %.2f %s^2%nČtyřstěn: %.2f %s^2%n", plocha_kvadr, jednotky, plocha_krychle, jednotky, plocha_koule, jednotky, plocha_ctyrsten, jednotky);
     }
 }
