@@ -2,7 +2,7 @@ package hejsek.apps;
 
 import java.util.Scanner;
 
-public class MereniRychlosti {
+public class UsekovaRychlost {
     private static short speed_limit;
     private static float section_length;
     private static byte hh_start, mm_start, ss_start, set_start, hh_end, mm_end, ss_end, set_end;
