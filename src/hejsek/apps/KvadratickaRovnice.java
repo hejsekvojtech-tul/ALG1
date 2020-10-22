@@ -30,7 +30,7 @@ public class KvadratickaRovnice {
                 double re = -b / (2 * a);
                 double im = Math.abs(d2 / (2 * a));
                 System.out.format("x1 = %.5f + %.5f%n", re, im);
-                System.out.format("x2 = %.5f - %.5f%n", re - im);
+                System.out.format("x2 = %.5f - %.5f%n", re, im);
             } else {
                 double x1 = (-b + d2) / (2 * a);
                 double x2 = (-b - d2) / (2 * a);
